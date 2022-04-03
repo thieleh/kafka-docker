@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.kafka.config.TopicBuilder;
 
 @Configuration
-public class MessageConfig {
+public class ProducerConfig {
 
     @Value("${topic.studying.kafka.docker}")
     public String topicName;

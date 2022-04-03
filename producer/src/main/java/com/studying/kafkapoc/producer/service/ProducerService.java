@@ -11,9 +11,9 @@ import org.springframework.stereotype.Service;
 @Slf4j
 @RequiredArgsConstructor
 @Service
-public class MessageService {
+public class ProducerService {
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(MessageService.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(ProducerService.class);
 
     @Value("${topic.studying.kafka.docker}")
     public String topicName;
